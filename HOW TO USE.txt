@@ -1,0 +1,31 @@
+============================================
+ИНСТРУКЦИЯ ПО УСТАНОВКЕ / INSTALLATION GUIDE
+============================================
+
+РУССКИЙ
+-------
+1. Поместите BOP_Generator.exe в любую удобную папку
+2. Запустите программу двойным кликом
+3. Следуйте инструкциям на экране
+4. Сгенерированные файлы появятся в папке "generated_bop"
+5. Скопируйте содержимое этой папки в папку вашего мода
+
+Для работы программы НЕ требуется:
+- Установка Python
+- Установка дополнительных библиотек
+- Права администратора
+- Подключение к интернету
+
+ENGLISH
+-------
+1. Place BOP_Generator.exe in any convenient folder
+2. Run the program by double-clicking
+3. Follow the on-screen instructions
+4. Generated files will appear in the "generated_bop" folder
+5. Copy the contents of this folder into your mod folder
+
+The program does NOT require:
+- Python installation
+- Additional libraries
+- Administrator rights
+- Internet connection
