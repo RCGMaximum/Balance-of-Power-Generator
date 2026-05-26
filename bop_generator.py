@@ -1,8 +1,4 @@
 #!/usr/bin/env python3
-"""
-Финальный генератор Balance of Power для Hearts of Iron IV
-Полностью исправленная версия.
-"""
 
 import os
 
@@ -285,7 +281,7 @@ def generate_bop_file(bop_id, initial_value, left_side_id, right_side_id,
         lines.append(f"    decision_category = {decision_category}")
     lines.append("")
 
-    # нейтральный диапазон
+    # Нейтральный диапазон
     nr = neutral_range
     lines.append(f"    range = {{")
     lines.append(f"        id = {nr['id']}")
@@ -327,7 +323,7 @@ def generate_bop_file(bop_id, initial_value, left_side_id, right_side_id,
     lines.append(f"    }}")
     lines.append("")
 
-    # правая сторона
+    # Правая сторона
     lines.append(f"    side = {{")
     lines.append(f"        id = {right_side_id}")
     lines.append(f"        icon = \"{right_side_icon}\"")
